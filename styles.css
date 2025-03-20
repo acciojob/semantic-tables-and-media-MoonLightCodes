@@ -1,2 +1,81 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
 
-/* Your CSS Code here. */
+/* Table Styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #007BFF;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:hover {
+  background-color: #e0f7fa;
+}
+
+/* Heading Styling */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
+
+/* Ordered List Styling */
+ol {
+  width: 80%;
+  margin: 20px auto;
+  padding: 0;
+  list-style-position: inside;
+}
+
+ol li {
+  margin-bottom: 20px;
+}
+
+ol img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+ol video, ol audio {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
